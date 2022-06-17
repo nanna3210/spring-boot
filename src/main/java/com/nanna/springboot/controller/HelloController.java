@@ -18,6 +18,7 @@ public class HelloController {
     public String helloWorld() {
         System.out.println("Welcome to Nanna Site ");
         System.out.println("Hey Man nanna here ");
+        System.out.println("nanna");
         return "nanna dash";
     }
 
