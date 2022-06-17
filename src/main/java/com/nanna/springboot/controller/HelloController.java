@@ -17,6 +17,7 @@ public class HelloController {
     @GetMapping("/")
     public String helloWorld() {
         System.out.println("Welcome to Nanna Site ");
+        System.out.println("Hey Man nanna here ");
         return "nanna dash";
     }
 
